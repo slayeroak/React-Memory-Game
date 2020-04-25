@@ -10,8 +10,8 @@ function Main(props) {
                     className="click-item shake" 
                     onClick={props.handleimageclick} 
                     key={image.id} 
-                    src={process.env.PUBLIC_URL + '/img/' + image.fileName} 
-                    alt="Apex-character"
+                    src={process.env.PUBLIC_URL + '/images/' + image.fileName} 
+                    alt="Slayeroak Character"
                     id={image.id}
                 />)}
             </div>
